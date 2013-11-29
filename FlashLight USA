@@ -1,0 +1,8 @@
+11-28 23:55:50.758: D/dalvikvm(821): GC_FOR_ALLOC freed 37K, 4% free 2600K/2700K, paused 173ms, total 181ms
+11-28 23:55:51.058: I/dalvikvm-heap(821): Grow heap (frag case) to 9.325MB for 7056016-byte allocation
+11-28 23:55:51.188: D/dalvikvm(821): GC_FOR_ALLOC freed 2K, 2% free 9488K/9592K, paused 123ms, total 123ms
+11-28 23:55:54.149: E/MainActivity(821): Camera Error. Failed to Open. Error: null
+11-28 23:55:54.219: I/Choreographer(821): Skipped 70 frames!  The application may be doing too much work on its main thread.
+11-28 23:55:54.549: I/Choreographer(821): Skipped 196 frames!  The application may be doing too much work on its main thread.
+11-28 23:55:54.639: D/gralloc_goldfish(821): Emulator without GPU emulation detected.
+11-28 23:56:03.649: I/Choreographer(821): Skipped 37 frames!  The application may be doing too much work on its main thread.
