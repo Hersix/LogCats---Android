@@ -1,0 +1,22 @@
+03-13 01:13:00.084: I/Choreographer(918): Skipped 57 frames!  The application may be doing too much work on its main thread.
+03-13 01:13:12.114: D/AndroidRuntime(918): Shutting down VM
+03-13 01:13:12.124: W/dalvikvm(918): threadid=1: thread exiting with uncaught exception (group=0x41465700)
+03-13 01:13:12.145: E/AndroidRuntime(918): FATAL EXCEPTION: main
+03-13 01:13:12.145: E/AndroidRuntime(918): android.view.WindowManager$BadTokenException: Unable to add window -- token null is not for an application
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:563)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:269)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.app.Dialog.show(Dialog.java:281)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at rain.dreams.MainActivity$3.onClick(MainActivity.java:116)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.view.View.performClick(View.java:4240)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.view.View$PerformClick.run(View.java:17721)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.os.Handler.handleCallback(Handler.java:730)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.os.Looper.loop(Looper.java:137)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at java.lang.reflect.Method.invoke(Method.java:525)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+03-13 01:13:12.145: E/AndroidRuntime(918): 	at dalvik.system.NativeStart.main(Native Method)
+03-13 01:13:14.864: I/Process(918): Sending signal. PID: 918 SIG: 9
